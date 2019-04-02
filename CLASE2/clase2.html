@@ -1,0 +1,118 @@
+<!-- github.com/dileofrancoj/PWI_1C_TN -->
+<!-- 1144739222 Franco Di Leo   -->
+<html>
+
+    <head>
+        <title>Formularios</title>
+        <meta charset="utf-8">
+        <!-- ñ, tildes, -->
+    </head>
+
+    <body>
+       
+        <h1>Titulos</h1>
+        <a href="https://www.google.com.ar" target=new()>
+            Enlace a google
+        </a>
+
+        <!-- formularios : son elementos para que el usuario ingrese informacion. -->
+        <!-- con esa informacion vamos a hacer peticion a un conjunto de tablas dentro de una base de datos -->
+
+        <a href="" target=""></a>
+        <form>
+
+            <!-- el usuario ingrese informacion -->
+            <!-- este input esta pensado para poner caracteres alfanumericos -->
+            <!-- varchar, alfanumericas -->
+
+            <!-- label muestra el texto dentro de su etiqueta y el atributo for sirve para aumentar la experiencia del usuario : usado para gente que no puede ver. El programa que usan lee lo que esta dentro de for ="" -->
+
+           <label for="ingresa tu usuario">Ingresa tu usuario</label>
+            <input type="text" placeholder="francodileo" name="usuario"> 
+
+            <!-- placeholder es un atributo de la etiqueta input que guia al usuario respecto a que informacion se espera dentro del control -->
+
+            <p>Nombre</p>
+            <input type="text" placeholder="Franco" name="nombre_usuario">
+            <p>Correo electronico</p>
+            <!-- type : email verifica que haya un @ y un .com dentro de lo escrito -->
+
+            <!-- value : valor asociado a ese control -->
+            <input type="email"  value="micorreo@gmail.com" name="mail">
+            <p>Ingresa tu contraseña</p>
+            <input type="password">
+            <p>Repetir contraseña</p>
+            <input type="password">
+            <p> Ingresa la foto mas fea que tengas </p>
+            <input type="file">
+
+           <!-- textarea : nos genera un espacio amplio donde escribir. -->
+            <!-- tiene etiqueta de cierre -->
+            <br> 
+           <textarea rows="10" cols="70">           
+           Escribi un comentario
+
+           </textarea>
+           <!-- style : color:blue -->
+           <!-- Input para elegir un color cualquiera. -->
+           <p>Elegi un color: </p>
+           <input type="color">
+
+ 
+           <!-- calendario para elegir una fecha determinada -->
+           <p>Fecha de nacimiento : </p>
+            <input type="date">
+           <br>
+           <p>Selecciona un pais</p>
+           <!-- select -->
+           <select name="pais">
+            <!-- todas las opciones a mostrar -->
+                <option value="argentina">Argentina</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="china">China</option>
+                <!-- La informacion va al servidor : -->
+
+           </select>
+           <select value="sexo">
+               <!-- si queremos que muestre un mensaje "guia" cuando se genera el select| -->
+            <option selected disabled value="sexo">Sexo</option>
+            
+            <option value="0">Femenino</option>
+            <option value="1">Masculino</option>
+            <option value="2">Otros </option>
+            <option value="3">Prefiero no indicarlo</option>
+
+           </select>
+           
+            <button type="button">Registrarme</button>
+
+        </form>
+
+    </body>
+
+</html>
+            <!-- usuario, 
+                            mail, 
+                            contraseña,
+                            repetir contraseña,
+                            foto de perfil, 
+                            descripcion personal, 
+                            edad,  -->
+            <!-- boton de enviar, boton de borrar datos -->
+
+
+<!-- 
+
+
+    name="" atributo que identifica el nombre con el que la informacion que escriba el usuario llegara al servidor
+
+    id="" -> identificacion unica del elemento (lo usaremos en CSS)
+
+    class="" -> CSS
+
+
+ -->
+<!-- por defecto el button es type="button" -->
+ <button >Boton a mostrar</button>
+ <input type="password" placeholder="*******" minlength="6" maxlength="20">
+ <!-- minlength y maxlength : cantidad minima y maxima de caracteres respectivamente -->
