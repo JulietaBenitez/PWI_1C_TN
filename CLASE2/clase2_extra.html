@@ -1,0 +1,62 @@
+<html>
+
+    <head>
+        <title>Mas de forms</title>
+    </head>
+
+    <body>
+
+        <form>
+
+            <!-- acá van todos los inputs, textarea, select -->
+            <label for="correo">Correo electronico</label>
+            <input type="email">
+            <br>
+            <button type="button">Registrarse</button>
+
+            <!-- AJAX, 
+                
+            CLICK, DOBLECLICK,BLUR, FOCUS, HOVER    ANGULAR 
+            
+            -->
+            <!-- envio de informacion al backend -->
+            <button type="submit">Enviar informacion</button>
+            <button type="reset">Borrar todo :)</button>
+        </form>   
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+        <form action="" method="">
+            <!-- 
+                ¿Quien procesa esa informacion?
+                action: pagina o archivo o ruta a la que se enviara la informacion de nuestro form
+             -->
+
+             <!--
+                  method: GET : mostrar informacion de una tabla enviar informacion a través de la url
+
+                  method : POST -> agregar informacion a una tabla forma interna en el navegador
+
+                  : PUT : actualizar informacion en una tabla
+                  
+                  DELETE: borrar informacion de una tabla
+
+                  Verbos HTTP 
+            
+            -->
+
+            <!-- tablas -->
+
+
+            <label for="nombre">Ingres tu nombre</label>
+           <!-- required es un atributo propio de forms en gral que dice que verifica que no este vacio el input que tiene required dentro  -->
+            <input type="text" required name="nombre">
+            <button type="submit">Registrar</button>
+        </form>
+
+    </body>
+
+
+</html>
