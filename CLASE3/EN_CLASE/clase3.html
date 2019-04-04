@@ -1,0 +1,123 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Primera pagina con estilos
+        </title>
+
+        <!-- estilos : no tenemos que modificar todo el tiempo los elementos a los que queremos cambiarle estilos -->
+
+        <!--  esto le dice al navegador que dentro de esa etiqueta se definen reglas de estilos :D -->
+        <style>
+            /* En condiciones normales css se guia por el orden en el que aparecen
+                estilos a un elemento 
+                clases 
+                id 
+                important 
+            
+            h2 {
+
+            } 
+*/
+            /* la forma de comentar implic que es otro lenguaje distinto :D  */
+            /* color : olive, tamaño de 22 pixels, negrita */
+            /* dentro de las llaves asignaremos los estilos que afectaran al elemento */
+
+            /* CSS --> CASCADE STYLE SHEET */
+            p{
+                color :black; 
+                /* unidades de medida px, cm , em, rem */
+                font-size : 22px; 
+                /* peso de fuente */
+                font-weight: bold; 
+                /* font-family : Verdana, Georgia, Impact, Arial, Times new roman */
+                font-family : Verdana, Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                /* font-style : italic; oblique */
+                font-style: normal;  
+                /* font-weigth : 100/200/...900 */
+                /* 600 700 */
+            }
+            /*  */
+            h1 {
+                /* todos los h1 van a tener estos estilos... */
+                color : tomato; 
+                background: aquamarine;
+                /* width ancho  */
+                /* 
+                las medidas de ancho y alto (vh) se trabajan con porcentajes
+                
+                 */
+                 /* ocupa el 50% del contenedor y no el total */
+                width :  50%;
+                 
+                /* alto elemento :  */
+                /* background : color de fondo que tendra el h1 */
+            }
+
+            h3 {
+             font-size:40px;
+            }
+            .div1 {
+                /* punto adelante : referencia a la clase div1 */
+                background : aquamarine;
+                color : white; 
+                width : 60%;
+                /* alto del elemento : heigth */
+                height: 250px;
+
+            }
+
+            .resaltar p strong{
+                color: violet;
+                font-size:10px;
+                font-weight: 900;  
+            }
+      /* github.com/dileofrancoj/PWI_1C_TN */
+        </style>
+    </head>
+    <body>
+
+        <div class="resaltar">
+            <p>Quiero que seas que distinto! <strong>JAJA!</strong></p>
+        </div>
+        <!-- Le quiero dar al parrafo un color. -->
+        <!-- color: 
+            background:
+            font-size : 
+        -->
+        <!-- 
+
+            3 formas de llamar a colores
+                : hexadecimal
+                : rgb (rojo, verde, azul )
+                : rgba(rojo, verde, azul, opacidad)
+                : nombre de fantasia
+
+
+         -->
+        <!--  propiedad : valor que queremos darle -->
+        <h1>Titulo horrible lorem</h1>
+    <p>Hola, tengo flow</p>
+    <p> y un segundo parrafo con otro color</p>
+        <!--  <div> elemento de bloque . no tiene estilos definidos. -->
+            <!-- class, id -->
+            <div class="div1">
+                <p>Soy un parrafo dentro de un div.</p>
+            </div>
+
+            <div class="div1">
+                <h3>Soy un h3 dentro de un div</h3>
+            </div>
+            <!-- clase
+                ClAsE
+                clase1
+                clase_uno
+            
+            -->
+            <div class="sinestilos">
+                Yo no tengo amigos :(
+            </div>
+    </body>
+
+</html>
