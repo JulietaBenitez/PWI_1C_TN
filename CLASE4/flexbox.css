@@ -1,0 +1,32 @@
+.contenedor {
+    background : papayawhip;
+    width: 100%; /*responsive*/
+    height: 400px; /* se adapta a los elementos dentro de ese contenedor*/
+    margin-top: 10px;
+    display: flex; /* trabajar con el modelo de cajas flexibles*/
+    /* flex-direction : row | column | row-reverse | column-reverse */
+    flex-direction: row;
+    /* flex-wrap : nowrap viene por defecto reajusta las cajas al ancho del contenedor ppal */
+    flex-wrap : wrap;
+    /* flex-wrap : nowrap | wrap  */
+    /* cuando agregamos propiedades y no hay cambios
+        son propiedades que vienen por defecto
+    */
+    /* alinear elementos a lo largo del eje x (ppal)  */
+    /* text-align : center de cajas */
+    justify-content : space-evenly;
+      /* justify-content : center | flex-start | flex-end | space-around | space-between | space-evenly  */
+      /* space-evenly : misma distancia entre todos los elementos del contenedor */
+      /* align-items : center | flex-start | flex-end | strech  */
+      align-items : stretch;
+
+
+
+}
+
+.contenido {
+    width:15%;
+    background: olivedrab;
+    
+    border : 1px solid tomato; 
+}

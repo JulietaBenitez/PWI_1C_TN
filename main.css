@@ -1,0 +1,15 @@
+.titulo {
+    width : 60%;
+    color : violet; 
+    background: darkgrey;
+}
+
+.caja1 {
+    margin-top : 40px; 
+    background: goldenrod;
+    height: 300px;
+}
+
+.texto {
+    padding-top:250px;
+}

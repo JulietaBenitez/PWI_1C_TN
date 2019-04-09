@@ -1,0 +1,28 @@
+.contenedor {
+    background : tomato; 
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 500px;   
+    margin-top:60px;
+    /* margin-top: 
+    margin-left
+    right
+    bottom
+    
+    */
+}
+
+.contenido {
+    background: peru; 
+    width: 80%;
+    height: 300px;
+    padding:30px;
+    /* padding-top */
+}
+
+.centrar-texto {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold; 
+}

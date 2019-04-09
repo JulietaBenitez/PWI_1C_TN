@@ -1,0 +1,16 @@
+body {
+    /* imagenes de fondo  */
+    background-image : url(imagen.jpeg);
+    /* background-repeat: repeat-x repeat-y */
+    background-repeat: no-repeat; 
+    background-position: 20% 30%;
+    /* position : absolute
+        background-position : top center
+        background-position : center top
+    */
+    /* float */
+    /* flexbox */
+
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

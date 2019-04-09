@@ -1,0 +1,10 @@
+ejercitacion: 
+
+Dos paginas HTML
+1. login.html Formulario de login (usuario, password) placeholder: 
+    Boton : ingresar
+    Enlace : a la pagina de registro (hipervinculo) registro.html
+
+2. Usuario, contraseña, correo, cumpleaños
+    hipervinculo : volver (login.html)
+    boton : registrarse
