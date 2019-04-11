@@ -1,0 +1,44 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+                <!-- 6 unidades  
+                    si no hacemos referencia a las unidades que ocupa cada columna , bootstrap las calcula automaticamente
+                -->
+    <div class="col" style="background: coral">
+
+        <h2>Primer columna</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim maxime vel qui, cupiditate quo quibusdam molestias vero atque inventore repellendus neque beatae repellat similique eius natus blanditiis optio nemo. Sapiente!</p>
+
+    </div>
+    <div class="col" style="background:pink">
+        <h2>Segunda columna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, omnis itaque quaerat a aut quod odio alias eos sit tenetur delectus iste, sapiente laudantium doloremque ullam cumque amet, quam mollitia.</p>
+        <hr> <!-- Linea horizontal a lo ancho del contenedor-->
+        <!-- Dentro de mi columna 2 creo otra fila que a su vez tendra otras columnas dentro () -->
+        <div class="row">
+            <div class="col-8" style="background:violet">
+                <h3>Subtitulo de primer columna dentro de la segunda columna</h3>
+            </div>
+            <!-- si se especifica una columna y otra no bootstrap tambien calcula -->
+            <div class="col" style="background:springgreen">
+                <h3>Subtitulo de segunda columna dentro de segunda columna</h3>
+            </div>
+        </div>
+
+    </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

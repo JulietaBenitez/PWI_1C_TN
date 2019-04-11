@@ -1,0 +1,81 @@
+<!-- Bootstrap 4 :D::D:D
+
+        Framework CSS (20000 lineas CSS)
+
+        Comunidad
+        Codigo abierto 
+        Mantenimiento 
+
+-->
+<html>
+
+    <head>
+        <!-- local | online -->
+        <!--
+            
+            online : cache -> mejora el tiempo de carga del sitio
+
+        -->
+        <!-- cargamos bootstrap online
+        bootstrap 4 get started
+        -->
+        <!-- .min minificado (ocupa menos peso en el servidor) -->
+        <!-- CDN Content Delivery network -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <!-- https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css -->
+    </head>
+
+    <body>
+        <!-- container-fluid : caja que ocupa todo el ancho del contenedor -->
+        <!-- container genera un caja de witdh : 80 % centrada -->
+        <div class="container">
+            <!-- container -> genera un contenedor con margen a los costados y cambia la tipografia de lo que en el contenedor. -->
+            <h1>1 , 2 ,3 probando Bootstrap</h1>
+            <!-- acá generamos el sistema de grillas -->
+            <!-- creamos una fila -->
+            <div class="row">
+            <!-- xl : colapsa las columnas cuando la resolucion es menor a 1200px -->
+            <div class="col-xl-6">
+                <h2>Primer columna de mi fila</h2>
+            </div>
+            <div class="col-xl-6">
+                <h2>Segunda columna de mi fila</h2>
+            </div>
+
+
+            </div>
+
+            <div class="row">
+                <!-- para escritura multilea ctrl o alt -->
+                <!-- lg colapsa con una resolucion menor a 992px -->
+                <div class="col-lg-4">Columnas bootstrap! :D</div>
+                <div class="col-lg-4">Columnas bootstrap! :D</div>
+                <div class="col-lg-4">Columnas bootstrap! :D</div>
+
+
+            </div>
+
+            <div class="row">
+                <!-- md colapsa : es menor a 720px -->
+                <!-- sm colapsa cuando es menor 540 -->
+                <!-- 
+                    Multiples reglas
+                    Si se cumplen los estilos definidos en las clases en orden. Si la resolucion del navegador que ingresa es menor a 1200px (xl) se ejecuta la clase col-lg y asi sucesivamente
+                -->
+                <div class="col-xl-10 col-lg-8 col-md-7 col-sm-6" style="background:tomato; height: 400px;">
+                    <h2>Harry potter</h2>
+                    <p>Harry vivia en un armario</p>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-5 col-sm-6" style="background:olive; height: 400px;">
+                    <h2>Voldemort</h2>
+                    <p>Le falta la nariz</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </body>
+
+</html>

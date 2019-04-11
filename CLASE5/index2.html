@@ -1,0 +1,110 @@
+<html>
+
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+
+        <style>
+            /* los estilos van en otra hoja ! :D */
+            .tomato {
+                background : tomato; 
+                height: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- text-align:center -->
+            <div class="row text-center">
+
+                <div class="col tomato">
+
+                    <h2>Usuarios disponibles :) </h2>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <!--  ¡ la tabla ! -->
+                <!-- primary, success, danger, warning,dark, link -->
+                <!--table table-dark color oscuro de fondo
+                    table table-hover : pinta los elementos
+                -->
+                <table class="table table-dark table-hover">
+
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Mail</th>
+                            <th>Editar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Franco</td>
+                            <td>Apellido</td>
+                            <td>
+
+                    <button class="btn btn-success">Editar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Agustin</td>
+                <td>Gomez</td>
+                <td>
+        <button class="btn btn-success">Editar</button>
+                </td>
+                        </tr>
+
+                    </tbody>
+
+
+
+                </table>
+                <button class="btn">Enviar formulario</button>
+                <button class="btn btn-dark">Enviar formulario</button>
+                <button class="btn btn-success">Enviar formulario</button>
+                <button class="btn btn-warning">Enviar formulario</button>
+                <button class="btn btn-danger">Enviar formulario</button>
+                <button class="btn btn-primary">Enviar formulario</button>
+                <button class="btn btn-block btn-link">Enviar formulario</button>
+                <button class="btn  btn-danger">Enviar formulario</button>
+
+            </div>
+            <hr>
+            <!-- display : flex
+                justify-content : center
+            -->
+            <div class="row justify-content-center">
+           
+                <div class="col-6">
+                <h3>Armandito querido completa los datos : </h3>
+        <!--method: POST, GET, PUT, DELETE -->
+        <!-- action : que pagina iba a recibir los datos -->
+            <form action="" method=""> 
+                <!-- text,email, number,color,file,password, date -->
+                <div class="form-group">
+                    <input type="text" placeholder ="nombre" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="*********" class="form-control">
+                </div>
+                <!-- btn-outline pinta los bordes y deja el centro del boton en blanco -->
+                <button type="submit" class="btn btn-block btn-outline-success">Ingresar</button>
+                
+
+                 </form>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </body>
+
+</html>
