@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primero pasos JS</title>
+   
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <!--
+
+        Javascript DISTINTO JAVA
+
+      -->
+    <!-- ¿Que es javascript? -->
+    <!-- Es un lenguaje 
+        NodeJS, Angular 2+, React, Vue
+                --: TypeScript 
+    
+    -->
+<!-- <script src="archivo.js"> </script> -->
+
+<script>
+    // document.write es una funcion que permite escribir un mensaje en el navegador 
+
+    // ESTO ES UN COMENTARIO EN JAVASCRIPT
+    document.write('Hola mundo !');
+    document.write("Soy un hola mundo con comillas dobles pero hago lo mismo :D");
+    // variable : 
+    var nombre = 'franco'; //Tipo de dato : string
+    var sueldo = 1.23; // tipo de dato : float
+    var felicidad = false; // tipo de dato booleano 0 o 1
+    // 0 o 1
+    // 1 luz encendida 0 luz apagada
+
+    var correo = 'dileo.francoj@gmail.com' //string
+    var numerito = 2; // entero
+    document.write(" mi gran sueldo es: ");
+    document.write(sueldo); //estoy imprimiendo la variable sueldos
+    // imprimira : 1.23
+    // concatenar
+    // document.write("mi nombre es : " +nombre+ " y el numerito es :"+numerito);
+    // document.write("Mi correo electronico es: "+correo);
+    // funcion prompt : bloque de codigo que ejecuta una accion determinada
+        // document.write(typeof (numero1));
+            // typeof es una funcion que sirve para ver que tipo de dato estoy analizando
+            document.write(typeof (3)); // number o int
+            document.write(typeof ("franco")); // string
+    // var usuario = prompt('Ingresa tu usuario','por favor');
+    // la funcion prompt tiene dos valores (parametros), el primer es el titulo de la caja y el segundo es el value que viene en el input.
+    document.write("<h3>Hola a todes </h3><br><br><br><br><br>");
+    // document.write(usuario);
+    
+    // var numero1 = prompt("Ingresa un numero !", 'ej 3');
+    // numero1 = parseInt(numero1);
+    // var numero2 = prompt("Ingresa el segundo numerito");
+    // numero2 = parseInt(numero2);
+    
+    // document.write(numero1 + numero2);
+    // pueden definirse varias funciones en la misma linea!
+    var edad = parseInt(prompt("INGRESE UN NUMERO"));
+
+    // SI SE CUMPLE LA CONDICION (PASA ALGO)
+    // SI NO SE CUMPLE LA CONDICION (PASA OTRA COSA O NO PASA NADA)
+    // if(condicion) { tareas a ejecutar}
+    if(edad > 18){
+        // funcion que genera un popup 
+       alert("Bienvenido al sitio");
+    } else {
+        alert("Espera un par de añitos bb");
+    }
+
+
+    var numero1 = parseInt(prompt("Ingresa el primer numero"));
+    var numero2 = parseInt(prompt("Ingresa el segundo numero"));
+    var numero3 = parseInt(prompt("Ingresa el tercer numero"));
+    // cuando deben cumplirse multiples condiciones en simultaneo usamos el operador && and
+    if(numero1 > numero2 && numero1 > numero3) {
+        // si no se verifica que numero1 es mayor a numero 2 y que numero1 es mayor a numero 3 se ejecuta el else
+        alert("El primer es el mas grande")
+    } else {
+
+    }
+    // if(numero1 > numero2){
+    //     if(numero1 > numero3){
+    //         alert("el mas grande es el numero:"+numero1);
+    //     } else {
+           
+    //         alert("El mas grande es el"+numero3);
+    //     }
+    // } else {
+    //     if(numero2 > numero3){
+    //         alert("El mas grande es "+numero2)
+    //     } else {
+    //         alert("el mas grande es:"+numero3)
+    //     }
+
+    // }
+
+
+
+
+
+</script>
+
+</body>
+</html>
